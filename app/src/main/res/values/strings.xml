@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HomeworkLesson1</string>
+    <string name="editText_name">firstName</string>
+    <string name="editText_secondName">secondName</string>
+    <string name="editText_age">Age</string>
+    <string name="button_sub">SubmitButton</string>
+    <string name="press_the_button">Enter all the values to proceed</string>
+</resources>
