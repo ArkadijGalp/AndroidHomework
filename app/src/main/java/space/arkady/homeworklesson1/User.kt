@@ -1,7 +1,7 @@
 package space.arkady.homeworklesson1
 
 data class User(
-    val Name: String,
+    val name: String,
     val secondName: String,
-    val Age: Int
+    val age: Int
                             )

@@ -6,4 +6,8 @@
     <string name="button_sub">SubmitButton</string>
     <string name="press_the_button">Enter all the values to proceed</string>
     <string name="age">Age</string>
+    <string name="adultList">List of adults(above 18 y.o.)</string>
+    <string name="sortnamesbyalphabet">Sorting the names</string>
+    <string name="showlistofusers">Show list of Users</string>
+    <string name="already_included">alreadyIncluded</string>
 </resources>
