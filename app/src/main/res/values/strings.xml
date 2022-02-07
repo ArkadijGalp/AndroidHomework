@@ -5,4 +5,5 @@
     <string name="editText_age">Age</string>
     <string name="button_sub">SubmitButton</string>
     <string name="press_the_button">Enter all the values to proceed</string>
+    <string name="age">Age</string>
 </resources>
