@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentFolder.LoginFragment">
+
+  <EditText
+      android:id="@+id/Email"
+      android:layout_width="172dp"
+      android:layout_height="90dp"
+      android:hint="@string/Email"
+      android:textColor="@color/black"
+      android:textAlignment="center"
+      app:layout_constraintEnd_toStartOf="@+id/textEmail"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/Name"
+      tools:ignore="DuplicateSpeakableTextCheck" />
+
+  <EditText
+      android:id="@id/Password"
+      android:layout_width="172dp"
+      android:layout_height="48dp"
+      android:layout_marginStart="20dp"
+      android:textColor="@color/black"
+      android:textAlignment="center"
+      android:hint="@string/password"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/Email" />
+
+  <TextView
+      android:id="@+id/textMainText"
+      android:layout_width="172dp"
+      android:layout_height="48dp"
+      android:hint="@string/preview"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/Password" />
+
+  <TextView
+      android:id="@+id/textName"
+      android:layout_width="172dp"
+      android:layout_height="48dp"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/Name"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+      android:id="@+id/Name"
+      android:layout_width="172dp"
+      android:layout_height="48dp"
+      android:hint="@string/Hint_name"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toStartOf="@+id/textName"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textEmail"
+      android:layout_width="172dp"
+      android:layout_height="48dp"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/Email"
+      app:layout_constraintTop_toBottomOf="@+id/textName" />
+
+  <TextView
+      android:id="@+id/textPassword"
+      android:layout_width="172dp"
+      android:layout_height="48dp"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/Password"
+      app:layout_constraintTop_toBottomOf="@+id/textEmail" />
+
+  <Button
+      android:id="@+id/btn"
+      android:layout_width="172dp"
+      android:layout_height="48dp"
+      android:textAlignment="center"
+      android:text="@string/ButtonApply"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textMainText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
